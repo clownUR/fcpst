@@ -14,6 +14,6 @@ OPTIONS
   -h, --help            helpメッセージを表示する.
 
 TARGETFILES
-
+何らかの引数達
 
 ```
