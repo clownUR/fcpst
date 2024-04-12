@@ -9,8 +9,11 @@ fcpst(files compression tools)
 
 ## Usage
 ```sh
-fcpst [OPTIONS]
+fcpst [OPTIONS] <TARGETFILES...>
 OPTIONS
   -h, --help            helpメッセージを表示する.
+
+TARGETFILES
+
 
 ```
