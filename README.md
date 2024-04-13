@@ -13,7 +13,7 @@ fcpstでは，フォーマットの異なる圧縮ファイルの展開，各種
 ```sh
 fcpst [OPTIONS] <TARGETFILES...>
 OPTIONS
-  -m, --mode            archive，extractのどちらかを選択する．何も選択しなければdefaultモードで実行される．    
+  -m, --mode            archive，extractモードのどちらかを選択する．何も選択しなければdefaultモードで実行される．    
   -h, --help            helpメッセージを表示する.
 
 TARGETFILES
