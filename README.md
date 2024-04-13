@@ -1,4 +1,5 @@
 # fcpst
+ファイルやディレクトリを圧縮，展開するためのツール（コマンド）
 
 # ソフトウェア名
 fcpst(files compression tools)
