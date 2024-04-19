@@ -16,7 +16,9 @@ fcpstでは，フォーマットの異なる圧縮ファイルの展開，各種
 ```sh
 fcpst [OPTIONS] <ARGUMENTS...>
 OPTIONS
-  -m, --mode <MODE>     archive，extractモードのどちらかを選択する．何も選択しなければdefaultモードで実行される．    
+  -m, --mode <MODE>     archive，extractモードのどちらかを選択する．何も選択しなければdefaultモードで実行される．  
+  -d, --dest <DEST>     出力先のディレクトリを指定する．  
+  -o, --output <FILE>   出力する圧縮ファイル．デフォルトでは，引数として与えられたファイル名・ディレクトリ名に拡張子zipをつけた圧縮ファイルが出力される．  
   -h, --help            helpメッセージを表示する.
 
 ARGUMENTS  
