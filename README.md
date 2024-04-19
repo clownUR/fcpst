@@ -1,5 +1,5 @@
 # fcpst
-[![MIT License](https://img.shields.io/badge/License-MIT-green)(https://github.com/clownUR/developing\_flows/blob/main/LICENSE) 
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/clownUR/developing\_flows/blob/main/LICENSE) 
 
 ファイルやディレクトリを圧縮，展開するためのツール（コマンド）
 
