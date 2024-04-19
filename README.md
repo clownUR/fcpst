@@ -23,4 +23,4 @@ ARGUMENTS
 
 ```
 
-![logo](img/envelope.jpeg)
+![logo](img/envelope.jpg)
