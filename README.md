@@ -1,6 +1,6 @@
 # fcpst
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/clownUR/fcpst/blob/main/LICENSE) 
-![logo](img/logo.jpeg)
+![logo](img/envelope.jpeg)
 
 ファイルやディレクトリを圧縮，展開するためのツール（コマンド）
 
