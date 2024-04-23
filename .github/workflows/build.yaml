@@ -1,8 +1,8 @@
 name: build
 on:
   push:
-    branches: ["main"]
-    paths: ["src/**", "Cargo.toml"]
+    branches:
+      - "**"
 jobs:
   build:
     runs-on: ${{ matrix.os }}
