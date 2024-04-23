@@ -1,5 +1,5 @@
 # fcpst
-[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/clownUR/fcpst/blob/main/LICENSE)   
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/clownUR/fcpst/blob/main/LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/clownUR/fcpst/badge.svg?branch=main)](https://coveralls.io/github/clownUR/fcpst?branch=main)  
 ![logo](img/envelope.jpg)  
 
