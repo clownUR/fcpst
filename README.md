@@ -17,6 +17,9 @@ fcpstでは，フォーマットの異なる圧縮ファイルの展開，各種
 ## Usage
 ```sh
 fcpst [OPTIONS] <ARGUMENTS...>
+
+ARGUMENTS...  圧縮もしくは解凍したいファイル・ディレクトリ
+  
 OPTIONS
   -m, --mode <MODE>     archive，extractモードのどちらかを選択する．何も選択しなければdefaultモードで実行される．
   -f, --format <FORMAT> 圧縮フォーマットもしくは解凍したいフォーマットを選択する．defaultではzipが実行される．  
@@ -24,8 +27,4 @@ OPTIONS
   -h, --help            helpメッセージを表示する.
   -v, --version         コマンドのバージョンを表示する.
 
-ARGUMENTS  
-  extract mode: 圧縮ファイルを展開する．
-  archive mode: ファイルを圧縮する.
-  auto mode:    引数に圧縮ファイルが指定されている場合，展開する．それ以外の場合，ファイルを圧縮する．
 ```
