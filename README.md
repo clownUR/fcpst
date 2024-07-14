@@ -4,7 +4,7 @@
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/clownur/fcpst)](https://rust-reportcard.xuri.me/report/github.com/clownur/fcpst)  
 ![logo](img/envelope.jpg)  
 
-ファイルやディレクトリを圧縮，展開するためのツール（コマンド）
+ファイルやディレクトリをアーカイブ，展開するためのツール（コマンド）
 
 # ソフトウェア名
 fcpst(files compression tools)
@@ -12,7 +12,7 @@ fcpst(files compression tools)
 ## Description
 圧縮フォーマットやそれらを操作するためのコマンドは複数個存在している（zipコマンドなど)．  
 これらは単一の圧縮フォーマットを操作するためのコマンドであり，使い方はそれぞれ僅かに異なっている．  
-fcpstでは，フォーマットの異なる圧縮ファイルの展開，各種圧縮フォーマットによるファイル・ディレクトリの圧縮を可能にする．     
+fcpstでは，フォーマットの異なるアーカイブ・圧縮ファイルの展開，各種フォーマットによるファイル・ディレクトリのアーカイブを可能にする．     
 
 ## Usage
 ```sh
