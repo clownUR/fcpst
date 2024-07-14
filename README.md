@@ -21,7 +21,7 @@ Arguments:
   [ARGUMENTS]...  圧縮もしくは解凍したいファイル・ディレクトリ. 
 OPTIONS
   -m, --mode <MODE>     archive，extractモードのどちらかを選択する．defaultではautoモードが実行される．
-  -f, --format <FORMAT> 圧縮フォーマットもしくは解凍したいフォーマットを選択する．defaultではzipが実行される．  
+  -f, --format <FORMAT> フォーマットを選択する．defaultではzipが実行される．  
   -d, --dest <DEST>     出力先のディレクトリを指定する．存在しなければ作成する．  
   -h, --help            helpメッセージを表示する.
   -v, --version         コマンドのバージョンを表示する.
