@@ -18,7 +18,7 @@ fcpstでは，フォーマットの異なるアーカイブファイルの展開
 ```sh
 fcpst [OPTIONS] <ARGUMENTS...>
 Arguments:
-  [ARGUMENTS]...  圧縮もしくは解凍したいファイル・ディレクトリ. 
+  [ARGUMENTS]...  アーカイブもしくは展開したいファイル・ディレクトリ. 
 OPTIONS
   -m, --mode <MODE>     archive，extractモードのどちらかを選択する．defaultではautoモードが実行される．
   -f, --format <FORMAT> フォーマットを選択する．defaultではzipが実行される．  
