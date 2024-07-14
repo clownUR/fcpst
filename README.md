@@ -27,3 +27,8 @@ OPTIONS
   -v, --version         コマンドのバージョンを表示する.
 
 ```
+## Install
+
+```sh
+brew install clownUR/tap/fcpst
+```
