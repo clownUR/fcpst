@@ -27,6 +27,10 @@ OPTIONS
   -v, --version         コマンドのバージョンを表示する.
 
 ```
+Supported archive formats:
+- Tar
+- Zip
+
 ## Install
 
 ```sh
