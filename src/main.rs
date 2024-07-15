@@ -49,7 +49,7 @@ fn main() {
 mod tests {
     use std::path::PathBuf;
     use clap::Parser;
-    use crate::cli::{Cli, RunMode, Format}; // ここを修正
+    use crate::cli::{Cli, RunMode, Format};
 
     #[test]
     fn test_run() {
