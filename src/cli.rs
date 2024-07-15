@@ -35,7 +35,7 @@ pub enum Format{
   //これから増やしていく
 }
 
-//エラーに関しては後で実装する
+//エラーの実装
 
 impl Cli{
   pub fn execute_mode(&self) -> Result<RunMode, String>{
