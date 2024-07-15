@@ -4,28 +4,36 @@
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/clownur/fcpst)](https://rust-reportcard.xuri.me/report/github.com/clownur/fcpst)  
 ![logo](img/envelope.jpg)  
 
-ファイルやディレクトリを圧縮，展開するためのツール（コマンド）
+ファイルやディレクトリをアーカイブ，展開するためのツール（コマンド）
 
 # ソフトウェア名
 fcpst(files compression tools)
 
 ## Description
-圧縮フォーマットやそれらを操作するためのコマンドは複数個存在している（zipコマンドなど)．  
-これらは単一の圧縮フォーマットを操作するためのコマンドであり，使い方はそれぞれ僅かに異なっている．  
-fcpstでは，フォーマットの異なる圧縮ファイルの展開，各種圧縮フォーマットによるファイル・ディレクトリの圧縮を可能にする．     
+アーカイブフォーマットやそれらを操作するためのコマンドは複数個存在している（zipコマンドなど)．  
+これらは単一のフォーマットを操作するためのコマンドであり，使い方はそれぞれ僅かに異なっている．  
+fcpstでは，フォーマットの異なるアーカイブファイルの展開，各種フォーマットによるファイル・ディレクトリのアーカイブを可能にする．  
+出力後の拡張子を除くアーカイブファイルのファイル名はfcpstとなる．
 
 ## Usage
 ```sh
-fcpst [OPTIONS] <ARGUMENTS...>
+fcpst [OPTIONS] <INPUT...>
+Arguments:
+  [INPUT]...  アーカイブもしくは展開したいファイル・ディレクトリ. 
 OPTIONS
-  -m, --mode <MODE>     archive，extractモードのどちらかを選択する．何も選択しなければdefaultモードで実行される．  
-  -d, --dest <DEST>     出力先のディレクトリを指定する．  
-  -o, --output <FILE>   出力する圧縮ファイル．デフォルトでは，引数として与えられたファイルとディレクトリの名前に
-                        拡張子zipをつけた圧縮ファイルが出力される.  
+  -m, --mode <MODE>     archive，extractモードのどちらかを選択する．defaultではautoモードが実行される．
+  -f, --format <FORMAT> フォーマットを選択する．defaultではzipが実行される．  
+  -d, --dest <DEST>     出力先のディレクトリを指定する．存在しなければ作成する．  
   -h, --help            helpメッセージを表示する.
+  -v, --version         コマンドのバージョンを表示する.
 
-ARGUMENTS  
-  extract mode: 圧縮ファイルを展開する．
-  archive mode: ファイルを圧縮する.
-  auto mode:    引数に圧縮ファイルが指定されている場合,展開する．それ以外の場合，ファイルを圧縮する．
+```
+Supported archive formats:
+- Tar
+- Zip
+
+## Install
+
+```sh
+brew install clownUR/tap/fcpst
 ```
