@@ -57,7 +57,7 @@ mod tests {
             "fcpst_test", 
             "-d", 
             "test.zip", 
-            "--format", "zip", // ここを修正
+            "--format", "zip",
             "src", 
             "LICENSE", 
             "README.md", 
@@ -65,7 +65,7 @@ mod tests {
         ]);
         
         assert_eq!(opts.mode, RunMode::Auto);
-        assert_eq!(opts.output, Format::Zip); // ここを修正
+        assert_eq!(opts.output, Format::Zip);
         assert_eq!(opts.input.len(), 4);
         assert_eq!(opts.input, vec![
             PathBuf::from("src"), 
