@@ -38,12 +38,10 @@ pub fn zip_writer(files_to_zip: Vec<PathBuf>, mut dest: Option<PathBuf>) -> Resu
             if let Err(error) = directory_zip_archive(&mut zip, &file_path, &options, "") {
                 return Err(error.to_string());
             }
-            println!("ディレクトリが指定された場合の処理");
         } else if file_path.is_file() {
             if let Err(error) = files_zip_archive(&mut zip, &file_path, &options, "") {
                 return Err(error.to_string());
             }
-            println!("ファイルが指定された場合の処理");
         } else {
             return Err(format!("{}は存在しません", filename.display()));
         }
