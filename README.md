@@ -1,7 +1,6 @@
 # fcpst
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](https://github.com/clownUR/fcpst/blob/main/LICENSE)
 [![Coverage Status](https://coveralls.io/repos/github/clownUR/fcpst/badge.svg?branch=main)](https://coveralls.io/github/clownUR/fcpst?branch=main)  
-[![DOI](https://zenodo.org/badge/785141062.svg)](https://zenodo.org/doi/10.5281/zenodo.12747297)
 [![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/clownur/fcpst)](https://rust-reportcard.xuri.me/report/github.com/clownur/fcpst)  
 ![logo](img/envelope.jpg)  
 
