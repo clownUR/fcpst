@@ -38,4 +38,3 @@ Supported archive formats:
 ```sh
 brew install clownUR/tap/fcpst
 ```
-
