@@ -148,7 +148,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          # ${{ github.repository }} = clownUR/fcpst
+          # ${{ github.repository }} = clownur/fcpst
           images: ghcr.io/clownur/fcpst
           tags: |
             type=raw,value=latest
