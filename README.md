@@ -36,7 +36,12 @@ Supported archive formats:
 ## Install
 
 ```sh
-brew install clownUR/tap/fcpst
+brew install clownur/tap/fcpst
+```
+## :whale: Docker
+
+```sh
+docker run -it --rm -v $PWD:/workdir ghcr.io/clownur/fcpst:0.1.4 [OPTIONS] [INPUT]...
 ```
 
 
